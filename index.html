@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">  
+    <title>姚King的自我介绍</title>
+    <script defer src="script.js"></script>
+</head>
+<body>  
+    <div class="main-container">
+        <div class="avatar-wrap">
+            <img class="avatar" src="images/image.png" alt="头像" />
+        </div>
+        <h1 class="main-title">姚King</h1>
+        <p class="subtitle">一个迷人的高富帅</p>
+        <p class="desc">身高185cm，体重0.99kg，风骚且有钱</p>
+        <div class="glass-card">
+            <div class="hobby-title">爱好</div>
+            <ul class="hobby-list" id="hobby-list">
+                <li class="hobby-item" data-img="images/fried-chicken.jpg">
+                    <div class="hobby-flip">
+                        <div class="hobby-front">炸鸡</div>
+                        <div class="hobby-back"><img src="images/fried-chicken.jpg" alt="炸鸡" /></div>
+                    </div>
+                </li>
+                <li class="hobby-item" data-img="images/bbq.jpg">
+                    <div class="hobby-flip">
+                        <div class="hobby-front">烧烤</div>
+                        <div class="hobby-back"><img src="images/bbq.jpg" alt="烧烤" /></div>
+                    </div>
+                </li>
+                <li class="hobby-item" data-img="images/mala.jpg">
+                    <div class="hobby-flip">
+                        <div class="hobby-front">麻辣香锅</div>
+                        <div class="hobby-back"><img src="images/mala.jpg" alt="麻辣香锅" /></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <a class="cta-btn" href="https://www.linkedin.com/in/明翰-姚-071bb6270" target="_blank">访问 LinkedIn</a>
+    </div>
+    <!-- 图片放大预览遮罩和容器 -->
+    <div id="img-zoom-overlay" class="img-zoom-overlay" style="display:none;">
+        <div class="img-zoom-center">
+            <img id="img-zoom-preview" class="img-zoom-preview" src="" alt="预览" />
+        </div>
+    </div>
+</body>
+</html>
